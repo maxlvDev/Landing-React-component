@@ -1,0 +1,60 @@
+.Intro {
+    height: 870px;
+    background-image: url(mainpage.jpg);
+    background-position: bottom ;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.2);
+    height: 100%;
+}
+
+.greet {
+    text-align: center;
+    padding-top: 350px;
+    padding-bottom: 150px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 82px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    
+}
+
+.Intro p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.btn {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #5ca9fb;
+    background: linear-gradient(45deg, #f12711, #f5af19);           
+    padding: 18px 38px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 300;
+    border-radius: 25px;
+    transition: all 0.5s linear;
+    border: 0;
+}
+
+.btn:hover {
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 50%);
+    padding: 20px 40px;
+  }

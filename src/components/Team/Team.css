@@ -1,0 +1,30 @@
+.Team {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.no_show {
+    opacity: 0;
+}
+
+.element_show {
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+
+.team_card {
+    width: 265px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+}

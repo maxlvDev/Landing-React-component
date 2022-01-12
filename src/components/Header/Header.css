@@ -1,0 +1,111 @@
+.Header {
+    height: 70px;
+    background: linear-gradient(45deg, #f12711, #f5af19);  
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%);
+    position: relative;
+    z-index: 1;
+    padding-bottom: 15px;
+    width: 100%;
+
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+}
+
+.menu_bar {
+    position: relative;
+    height: 200px;
+    width: 80%;
+}
+
+.hidden {
+    display: none;
+}
+
+.navbut {
+    display: none;
+    }
+    
+.sublist {
+        position: absolute;
+        background-color: #f6f6f6;
+        min-width: 150px;
+        right: 0px;
+        top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+.sublist li {
+    padding-bottom: 12px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+.sublist a {
+    color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.brand {
+  font-family: 'Raleway', sans-serif;
+  font-size: 23px;
+  color: white;
+  float: left;
+  padding: 20px 0px;
+  margin-left: -10px;
+  text-transform: uppercase;
+}
+.navbar {
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    padding: 20px 0px;
+    float: right;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.Header li:hover {
+   border-bottom:3px solid #8ac5e0;
+   transition: 0.2s ease;
+   padding-bottom: 5px;
+}
+
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.Header a:hover {
+    color: whitesmoke;
+}
+
+.sticky {
+    position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.active {
+    border-bottom:3px solid #8ac5e0;
+    
+    padding-bottom: 5px;
+    
+}

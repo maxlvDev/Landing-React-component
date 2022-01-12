@@ -1,0 +1,89 @@
+.Services{
+padding: 100px 0;
+    background: linear-gradient(45deg, #e7b593, #8ac5e0);
+    color: #fff;
+    text-align: center;
+}
+
+.no_show {
+    opacity: 0;
+}
+
+
+.Services h2::after {
+    background: linear-gradient(45deg, #f12711, #f5af19);  
+}
+
+
+.element_show {
+    opacity: 1;
+    transition: all 2s;
+    transform: translateY(0%);
+}
+
+
+.section_title {
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.photoA {
+    background-image: url(a.jpg);
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    border-radius: 50px;
+
+}
+
+.photoB {
+    background-image: url(b.jpg);
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    border-radius: 50px;
+
+}
+
+.photoC {
+    background-image: url(c.jpg);
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    border-radius: 50px;
+
+}
+
+.photoD {
+    background-image: url(d.jpg);
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    border-radius: 50px;
+
+}
+
+.photoF {
+    background-image: url(ph1.jpg);
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    border-radius: 50px;
+
+}
+
+.photoG {
+    background-image: url(ph2.jpg);
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    border-radius: 50px;
+
+}
+
+.Services p {
+    font-weight: 600;
+    color: rgb(80, 76, 76);
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
